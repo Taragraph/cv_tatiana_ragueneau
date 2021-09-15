@@ -1,0 +1,555 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*En-tête barre nav*/
+
+header {
+    width: 100%;
+    min-height: 500px;
+    background-color: #000A1A;
+}
+
+
+.background-image-header
+{
+    background-image: url('images/fondheader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profil
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 200px);
+    width: 400px;
+}
+
+.profil h1
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FFD600;
+}
+
+.profil p
+{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.rounded-circle
+{
+    width: 210px;
+    border:solid 5px;
+    border-color:#FFD600;
+    border-radius: 100%;
+}
+
+#navbarNavDropdown
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px)
+{
+    .navbar-nav
+    {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    
+    .navbar li
+    { 
+        padding: 10px;
+    }
+}
+
+
+.navbar
+{
+    background-color: #FFD600;
+    height: 95px;
+}
+
+/* .navbar-nav li
+{
+    margin: 40px;
+} */
+
+.navbar a
+{
+    color: #000A1A;
+    font-weight: bold;
+    
+}
+
+.navbar a:active
+{
+    color:white;
+}
+
+.navbar a:hover
+{
+    color: white;
+}
+
+.navbar a:focus
+{
+    color:white;
+}
+
+ul .dropdown-menu
+{
+    padding: 0px;
+}
+
+.dropdown-menu a
+{
+    background-color: #FFD600;
+    color:#000A1A;
+    margin-top: none;
+    padding: none;
+}
+.dropdown-menu a:hover
+{
+    color: white;
+    background-color: #FFD600;
+}
+
+.navbar a:active
+{
+    color: white;
+}
+
+/*Intro*/
+
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.presentation
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation h2
+{
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000A1A;
+}
+
+.presentation p
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color:#000A1A;
+}
+
+.background-image-circles
+{
+    background-image: url('images/circles.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 75%;
+    width:50%;
+} 
+    
+
+
+/*Compétences*/
+
+.competences
+{
+    margin-bottom: none;
+}
+
+.competences h2
+{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    color:#000A1A;
+}
+
+.progress
+{   
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 30px;
+}
+
+.progress-bar
+{
+    background-color: #FFD600;
+    color: #000A1A;
+    font-size: 18px;
+}
+
+.logicielsetc
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logicielsetc img
+{
+    margin: 35px;
+    width: 46px;
+}
+
+@media screen and (max-width:1000px)
+{
+    .logicielsetc img
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 40%;
+        height: 40%;
+    }
+}
+
+/*Diplomes*/
+
+.background-image-diplome1
+{
+    background-image: url('images/fonddiplomes.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000A1A;
+}
+
+.sectiondiplomes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 170px;
+    height: 1075px;
+    
+}
+
+.sectiondiplomes h2
+{
+    color: #FFD600;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.encours
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: #FFD600 solid 20px;
+    width: 610px;
+    height: 250px;
+    margin-bottom: 170px;
+}
+
+.encours p
+{
+    color: #000A1A;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.encours span
+{
+    font-size: 18px;
+}
+
+.separateur
+{
+    width: 55px;
+    height: 10px;
+    background-color: #FFD600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .encours
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        border: #FFD600 solid 20px;
+        height: 90%;
+        width: 90%;
+        padding: 5px;
+        margin-bottom: 70px;
+        }
+}
+
+.zonediplome
+{
+    display: flex;
+    justify-content: center;
+}
+
+.diplomes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: #FFD600 solid 20px;
+    width: 610px;
+    height: 250px;
+    margin: 10px;
+}
+
+.diplomes p
+{
+    color: #000A1A;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.diplomes span
+{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .diplomes
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        border: #FFD600 solid 20px;
+        height: 90%;
+        width: 90%;
+        padding: 5px;
+        }
+}
+
+
+.zonediplome
+{
+    display: flex;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .zonediplome
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+}
+
+/*Formations et experiences en milieu professionnel*/
+
+.formation-experiencepro
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 60px;
+}
+
+.formation-experiencepro h2
+{
+    
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color:#000A1A;
+}
+
+.dateformation
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000A1A;
+    text-align: right;
+}
+
+.stage 
+{
+    border: 10px solid #FFD600;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    left: 30px;
+}
+
+.stage span
+{
+    border-bottom: 5px solid #FFD600;
+}
+
+.annee {
+    display: flex;
+    width: 80%;
+    margin: auto; 
+}
+
+.annee div {
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.annee div:first-child {
+    border-right : solid 4px #FFD600;
+    padding-right: 30px;
+    position: relative;
+}
+
+.annee div:first-child::after {
+    content : "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FFD600;
+    border-radius: 100%;
+    right: -12px;
+    top: calc(50% - 30px);
+}
+
+
+.experiencepro
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000A1A;
+    width: 490px;
+}
+
+.entreprise
+{
+    text-align: left;
+    padding-left: 30px;
+}
+
+/*Centres d'intérêts*/
+
+.interets
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.interets h2
+{
+    display: flex;
+    display: row;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    color:#000A1A;
+}
+
+.pictointerets
+{
+    display: flex;
+}
+
+.catinteret
+{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.catinteret p
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000A1A;
+    padding-top: 30px;
+    width: 160px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .catinteret
+    {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .catinteret img
+    {
+        width: 50%;
+    }
+
+    .catinteret p
+    {
+        font-size: 14px;
+    }
+}
+
+
+/*Footer*/
+
+footer
+{
+    background-color: #000A1A;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+footer img
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}

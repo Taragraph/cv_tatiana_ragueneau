@@ -1,0 +1,281 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*En-tête barre nav*/
+
+header {
+    width: 100%;
+    min-height: 500px;
+    background-color: #000A1A;
+}
+
+
+.background-image-header
+{
+    background-image: url('images/fondheader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profil
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 200px);
+    width: 400px;
+}
+
+.profil h1
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FFD600;
+}
+
+.profil p
+{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.rounded-circle
+{
+    width: 210px;
+    border:solid 5px;
+    border-color:#FFD600;
+    border-radius: 100%;
+}
+
+#navbarNavDropdown
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar
+{
+    background-color: #FFD600;
+    height: 95px;
+}
+
+/* .navbar-nav li
+{
+    margin: 40px;
+} */
+
+.navbar a
+{
+    color: #000A1A;
+    font-weight: bold;
+    
+}
+
+.navbar a:active
+{
+    color:white;
+}
+
+.navbar a:hover
+{
+    color: white;
+}
+
+.navbar a:focus
+{
+    color:white;
+}
+
+ul .dropdown-menu
+{
+    padding: 0px;
+}
+
+.dropdown-menu a
+{
+    background-color: #FFD600;
+    color:#000A1A;
+    margin-top: none;
+    padding: none;
+}
+.dropdown-menu a:hover
+{
+    color: white;
+    background-color: #FFD600;
+}
+
+.navbar a:active
+{
+    color: white;
+}
+
+@media screen and (max-width:1000px)
+{
+    .navbar-nav
+    {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    .navbar li
+    { 
+        padding: 10px;
+    }
+}
+
+/*Formulaire de contact*/
+
+h2
+{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color:#000A1A;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p
+{
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 768px)
+{
+    form input
+    {
+        display: flex; 
+        flex-direction: column;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    form p
+    {
+       font-size: 12px;
+    }
+
+    form input
+    {
+        width: 250px;
+    }
+    form #message
+    {
+        width: 250px;
+    }
+}
+
+
+input
+{
+    width: 480px;
+}
+
+#message
+{
+    width: 480px;
+    height: 250px;
+}
+
+.submit
+{
+    display: flex;
+    width: 150px;
+    background-color: #FFD600;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.envoyer
+{
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordonnees
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px)
+{
+    .coordonnees
+    {
+        display: flex; 
+        flex-direction: column;
+    }
+}
+
+.coordonnees p
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000A1A;
+    margin-bottom: 0px;
+}
+
+.textcoordonnees
+{
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    margin: 40px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .textcoordonnees
+    {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        margin: 20px;
+    }
+}
+
+.textcoordonnees img
+{
+    margin-right: 15px;
+    width: 30px;
+}
+
+/*Footer*/
+
+footer
+{
+    background-color: #000A1A;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+footer img
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
