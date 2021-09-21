@@ -279,3 +279,13 @@ footer img
     padding-left: 15px;
     padding-right: 15px;
 }
+
+@media screen and (max-width: 1000px)
+{
+    footer img
+    {
+      padding-left: 10px;
+      padding-right: 1px;  
+      width: 80%;
+    }
+}
