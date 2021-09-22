@@ -486,7 +486,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     padding-bottom: 90px;
+    width: 100%;
 }
 
 .interets h2
@@ -504,6 +506,7 @@ header {
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -525,6 +528,11 @@ header {
 
 @media screen and (max-width: 1000px)
 {
+    .interets
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
     .catinteret
     {
         text-align: center;
