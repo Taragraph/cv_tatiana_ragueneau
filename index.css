@@ -458,7 +458,7 @@ header {
 
 .annee {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto; 
 }
 
@@ -498,6 +498,26 @@ header {
 {
     text-align: left;
     padding-left: 30px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .experiencepro
+    {
+        font-size: 12px;
+        font-weight: normal;
+        color: #000A1A;
+        width: 490px;
+    }
+
+    .dateformation
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: #000A1A;
+    text-align: right;
+}
+
 }
 
 /*Centres d'intérêts*/
