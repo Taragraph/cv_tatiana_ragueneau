@@ -458,7 +458,7 @@ header {
 
 .annee {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto; 
 }
 
@@ -500,7 +500,7 @@ header {
     padding-left: 30px;
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 800px)
 {
     .experiencepro
     {
@@ -510,14 +510,29 @@ header {
         width: 490px;
     }
 
-    .dateformation
-{
-    font-size: 12px;
-    font-weight: normal;
-    color: #000A1A;
-    text-align: right;
-}
+        .dateformation
+    {
+        font-size: 12px;
+        font-weight: normal;
+        color: #000A1A;
+        text-align: right;
+    }
 
+    .annee div:first-child 
+    {
+        padding-right: 15px;
+    }
+
+    .entreprise
+    {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+        .stage 
+    {
+        left: 15px;
+    }
 }
 
 /*Centres d'intérêts*/
