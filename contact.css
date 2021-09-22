@@ -163,9 +163,7 @@ form p
 {
     form input
     {
-        display: flex; 
-        flex-direction: column;
-        width: 200px;
+        width: 250px;
     }
 }
 
@@ -174,11 +172,6 @@ form p
     form p
     {
        font-size: 12px;
-    }
-
-    form input
-    {
-        width: 250px;
     }
     form #message
     {
@@ -202,7 +195,6 @@ input
 
 .submit
 {
-    display: flex;
     width: 150px;
     background-color: #FFD600;
     border: none;
