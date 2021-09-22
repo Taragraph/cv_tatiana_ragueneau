@@ -156,6 +156,9 @@ header {
 
 .presentation h2
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 70px;
     font-weight: bold;
     font-size: 48px;
@@ -254,8 +257,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 170px;
-    height: 1075px;
+    padding-bottom: 20%;
+    height: 100%
     
 }
 
@@ -305,7 +308,7 @@ header {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 700px)
 {
     .encours
     {
@@ -319,7 +322,7 @@ header {
         height: 90%;
         width: 90%;
         padding: 5px;
-        margin-bottom: 70px;
+        margin-bottom: 20%;
         }
 }
 
@@ -358,7 +361,24 @@ header {
     font-size: 18px;
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1200px)
+{
+    .diplomes
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        border: #FFD600 solid 20px;
+        height: 253px;
+        width: 90%;
+        padding: 5px;
+        }
+}
+
+@media screen and (max-width: 800px)
 {
     .diplomes
     {
