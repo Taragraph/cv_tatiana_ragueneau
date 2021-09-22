@@ -233,9 +233,8 @@ header {
     .logicielsetc img
     {
         display: flex;
-        flex-wrap: wrap;
-        margin: 10px;
-        width: 10%;
+        flex-wrap: wrap; 
+        margin: 10px;   
     }
 }
 
@@ -343,6 +342,8 @@ header {
     height: 250px;
     margin: 10px;
 }
+
+
 
 .diplomes p
 {

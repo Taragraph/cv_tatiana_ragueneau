@@ -190,12 +190,14 @@ form p
 input
 {
     width: 480px;
+    padding-left: 10px;
 }
 
 #message
 {
     width: 480px;
     height: 250px;
+    padding-left: 10px;
 }
 
 .submit
@@ -209,8 +211,8 @@ input
 }
 
 .envoyer
-{
-    justify-content: center;
+{   
+    display: flex;
     justify-content: center;
     align-items: center;
 }
